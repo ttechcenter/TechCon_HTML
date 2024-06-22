@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register for TechCon 2024</title>
+</head>
+
+<body>
+    <header>
+        <h1>Register for TechCon 2024</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="register.php" method="post"> <h2>Register Now!</h2>
+            <p>Fill out the form below to secure your spot at TechCon 2024.</p>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="Create a password">
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required placeholder="Re-enter your password">
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the TechCon 2024 Terms and Conditions.</label>
+            </div>
+
+            <button type="submit">Register Now</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; TechCon 2024</p>
+    </footer>
+</body>
+
+</html>
